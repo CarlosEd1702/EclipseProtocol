@@ -1,0 +1,58 @@
+# === UNREAL ENGINE ===
+
+# Ignora carpetas generadas automáticamente
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.idea/
+.vs/
+Build/
+
+# Archivos temporales y de VS
+*.sdf
+*.suo
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.log
+*.tmp
+
+# Archivos compilados
+*.dll
+*.exe
+*.pdb
+*.lib
+*.app
+*.dylib
+*.ipa
+*.target
+*.buildid
+*.obj
+*.o
+*.pch
+*.gch
+
+# Backups y crash reports
+*.uoasave
+*.uasset.bak
+*.umap.bak
+*.crash
+*.dmp
+*.bak
+*.local
+
+# Archivos específicos de Mac y Linux
+.DS_Store
+*.swp
+
+# Node/npm cache (si usas herramientas web)
+node_modules/
+
+# Informes de Unity si usas plugins relacionados
+memoryreports/
+
+# Carpetas opcionales de sistema que pueden generarse
+Thumbs.db
+desktop.ini
